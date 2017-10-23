@@ -1,9 +1,9 @@
 # EvaS
 Colony lot website. Goal of project is to have a website
-that shows images and some text about a colony lot.
+that shows images and text about a colony lot.
 Some features:
  * responsive
- * single-page
+ * single-page with parallax
  * collage of images (grid structure)<br>
  
 
