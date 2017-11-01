@@ -1,10 +1,10 @@
 # EvaS
 Colony lot website. Goal of project is to have a website
-that shows images and text for a colonist.
+that shows images and text for a colonist (https://en.wikipedia.org/wiki/Allotment_(gardening)#Sweden).
 Some current features:
- * responsive
+ * responsive with parallax
  * English and Swedish (single-page for each)
- * collage of images (liquid grid structure)<br>
+ * gallery of images<br>
  
 
  Website: https://virsto.github.io/EvaS                   
