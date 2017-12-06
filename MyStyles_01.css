@@ -1,0 +1,51 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+  body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
+
+ /* Create a Parallax Effect for 3 images */
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* First image (home (Logo) image). Full height = 864px) */
+  .bgimg-1 {
+    background-image: url('images/parallax1.jpg');  /* 1218(h) x 864(w)  */
+    min-height: 100%;   /* this image will fill the screen */
+  }
+
+  /* Second image (start of pictures) */
+  .bgimg-2 {
+    background-image: url('images/parallax2.jpg'); /*  1218(h) x 864(w)  */
+    min-height: 400px;   /* specific height for this image */
+  }
+
+  /* Third image (end of pictures) */
+  .bgimg-3 {
+    background-image: url("images/parallax3.jpg"); /*  1218(h) x 864(w)  */
+    min-height: 400px;  /* specific height for this image */
+  }
+
+  .w3-wide {letter-spacing: 10px;}
+  .w3-hover-opacity {cursor: pointer;}
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+  }
+
+  h1.vps1{
+    font-family: Lato;
+    letter-spacing: 10px;
+  }
+  h1.vps2{
+    font-family: Lato;
+    font-size: 200%;  
+  }
